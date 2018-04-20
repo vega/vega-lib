@@ -45,6 +45,7 @@
   "main": "build/vega.js",
   "module": "index",
   "jsnext:main": "index",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/vega/vega-lib.git"
