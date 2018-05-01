@@ -396,6 +396,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
+eslint-config-vega@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-vega/-/eslint-config-vega-0.0.2.tgz#ca20c42f4aba0096d1b31a456b9632068c589558"
+
 eslint-scope@^3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
@@ -1335,7 +1339,7 @@ vega-canvas@1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vega-canvas/-/vega-canvas-1.0.1.tgz#22cfa510af0cfbd920fc6af8b6111d3de5e63c44"
 
-vega-crossfilter@2:
+vega-crossfilter@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vega-crossfilter/-/vega-crossfilter-2.0.0.tgz#29a8d789add5a2d0f25a4cdedb16713bf4f39061"
   dependencies:
@@ -1343,14 +1347,14 @@ vega-crossfilter@2:
     vega-dataflow "3"
     vega-util "1"
 
-vega-dataflow@3, vega-dataflow@^3.1:
+vega-dataflow@3, vega-dataflow@^3.1, vega-dataflow@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vega-dataflow/-/vega-dataflow-3.1.0.tgz#1021d14f9d080403cb2a85801a6a70cd79d2f916"
   dependencies:
     vega-loader "2"
     vega-util "1"
 
-vega-encode@2:
+vega-encode@^2.0.8:
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/vega-encode/-/vega-encode-2.0.8.tgz#0c6b377bf4b20df2b0a28c4d12b2fea65ab28e56"
   dependencies:
@@ -1365,13 +1369,13 @@ vega-event-selector@2:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vega-event-selector/-/vega-event-selector-2.0.0.tgz#6af8dc7345217017ceed74e9155b8d33bad05d42"
 
-vega-expression@2, vega-expression@^2.3:
+vega-expression@2, vega-expression@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/vega-expression/-/vega-expression-2.3.1.tgz#d802a329190bdeb999ce6d8083af56b51f686e83"
   dependencies:
     vega-util "1"
 
-vega-force@2:
+vega-force@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vega-force/-/vega-force-2.0.0.tgz#03084bfcb6f762d01162fb71dee165067fe0e7af"
   dependencies:
@@ -1379,7 +1383,7 @@ vega-force@2:
     vega-dataflow "3"
     vega-util "1"
 
-vega-geo@^2.2:
+vega-geo@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/vega-geo/-/vega-geo-2.2.2.tgz#d45dd6b843696618e9b6bd646ebcc711029975dc"
   dependencies:
@@ -1390,7 +1394,7 @@ vega-geo@^2.2:
     vega-projection "1"
     vega-util "1"
 
-vega-hierarchy@^2.1:
+vega-hierarchy@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/vega-hierarchy/-/vega-hierarchy-2.1.2.tgz#36d7ecb279d3df055853d8ca052198cc94cbde24"
   dependencies:
@@ -1399,7 +1403,7 @@ vega-hierarchy@^2.1:
     vega-dataflow "^3.1"
     vega-util "1"
 
-vega-loader@2:
+vega-loader@2, vega-loader@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vega-loader/-/vega-loader-2.1.0.tgz#036bc573944559cc3895867f0c37fd1d9956ceef"
   dependencies:
@@ -1409,7 +1413,7 @@ vega-loader@2:
     topojson-client "3"
     vega-util "1"
 
-vega-parser@2, vega-parser@^2.5:
+vega-parser@2, vega-parser@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/vega-parser/-/vega-parser-2.7.0.tgz#974a7c4cd877eafd07b425f842b1ce83cc18e3cf"
   dependencies:
@@ -1426,20 +1430,20 @@ vega-parser@2, vega-parser@^2.5:
     vega-statistics "^1.2"
     vega-util "^1.7"
 
-vega-projection@1:
+vega-projection@1, vega-projection@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vega-projection/-/vega-projection-1.1.0.tgz#46452fd12927201d1a7f7ef8f61d6e24253dbcd2"
   dependencies:
     d3-geo "1"
 
-vega-runtime@2:
+vega-runtime@2, vega-runtime@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/vega-runtime/-/vega-runtime-2.0.1.tgz#ef971ca3496df1cdbc0725699540952276c5f145"
   dependencies:
     vega-dataflow "3"
     vega-util "1"
 
-vega-scale@2, vega-scale@^2.1:
+vega-scale@2, vega-scale@^2.1, vega-scale@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/vega-scale/-/vega-scale-2.1.1.tgz#6ccdb796d9bcf86ceb677af5f9474a08cb01aaea"
   dependencies:
@@ -1450,7 +1454,7 @@ vega-scale@2, vega-scale@^2.1:
     d3-time "1"
     vega-util "1"
 
-vega-scenegraph@2, vega-scenegraph@^2.3:
+vega-scenegraph@2, vega-scenegraph@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/vega-scenegraph/-/vega-scenegraph-2.4.2.tgz#1835c63a66984a368633dfcfd8fa7495ee12ff25"
   dependencies:
@@ -1460,13 +1464,13 @@ vega-scenegraph@2, vega-scenegraph@^2.3:
     vega-loader "2"
     vega-util "^1.7"
 
-vega-statistics@^1.2:
+vega-statistics@^1.2, vega-statistics@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/vega-statistics/-/vega-statistics-1.2.1.tgz#a35b3fc3d0039f8bb0a8ba1381d42a1df79ecb34"
   dependencies:
     d3-array "1"
 
-vega-transforms@^1.2:
+vega-transforms@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/vega-transforms/-/vega-transforms-1.3.1.tgz#c570702760917a007a12cb35df9387270bfb6b21"
   dependencies:
@@ -1475,15 +1479,15 @@ vega-transforms@^1.2:
     vega-statistics "^1.2"
     vega-util "1"
 
-vega-typings@*:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/vega-typings/-/vega-typings-0.2.15.tgz#7c973f7f342efe82fb9c4ad96833431c11cd5911"
+vega-typings@^0.2.16:
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/vega-typings/-/vega-typings-0.2.16.tgz#2f67e494ac37b2ba6e38f9c147059aabbfe0f247"
 
-vega-util@1, vega-util@^1.7:
+vega-util@1, vega-util@^1.7, vega-util@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/vega-util/-/vega-util-1.7.0.tgz#0ca0512bb8dcc6541165c34663d115d0712e0cf1"
 
-vega-view-transforms@^1.2:
+vega-view-transforms@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/vega-view-transforms/-/vega-view-transforms-1.2.1.tgz#6114e621e5cc9e59f9db1ecc08a90e23385630d4"
   dependencies:
@@ -1491,7 +1495,7 @@ vega-view-transforms@^1.2:
     vega-scenegraph "2"
     vega-util "1"
 
-vega-view@^2.2:
+vega-view@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/vega-view/-/vega-view-2.3.2.tgz#037040b8e64d9dbf7900e86bbc8e952f0b99a119"
   dependencies:
@@ -1502,7 +1506,7 @@ vega-view@^2.2:
     vega-scenegraph "2"
     vega-util "1"
 
-vega-voronoi@2:
+vega-voronoi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vega-voronoi/-/vega-voronoi-2.0.0.tgz#6df399181dc070a2ef52234ebfe5d7cebd0f3802"
   dependencies:
@@ -1510,7 +1514,7 @@ vega-voronoi@2:
     vega-dataflow "3"
     vega-util "1"
 
-vega-wordcloud@^2.1:
+vega-wordcloud@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vega-wordcloud/-/vega-wordcloud-2.1.0.tgz#fb3187ab667ada14daffb7f175082a9a9736cab1"
   dependencies:
