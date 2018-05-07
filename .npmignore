@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+bin/
 build/*.zip
 docs/
 test/
