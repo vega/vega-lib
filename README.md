@@ -1,3 +1,5 @@
+**NOTE:** This package has been deprecated. For versions _after_ Vega v4.4.0, library and application developers can use the `vega` package directly instead of vega-lib. All future development and issues will be handled at the [`vega/vega`](https://github.com/vega/vega) repository. This repository has been archived and is now read-only.
+
 # vega-lib
 
 Include Vega in client-side projects using minimal dependencies.
